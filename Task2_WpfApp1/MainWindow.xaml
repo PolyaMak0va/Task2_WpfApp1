@@ -1,0 +1,43 @@
+﻿<Window x:Class="Task2_WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2_WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Margin="2,3,2,2" Background="#FFBDBDBD" Grid.Row="0" />
+        <TextBox Text="1 234,567" Background="#FFB1E8E7" Grid.Row="0" Margin="4,6,2,2" FontSize="30" IsReadOnly="True" TextAlignment="Right" TextWrapping="Wrap" BorderThickness="1" CharacterCasing="Lower"/>
+        <UniformGrid Rows="6" Columns="4" Grid.Row="1" Background="#FF8B8989">
+            <Button Content="%" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="CE" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="C" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="←" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="1/x" FontSize="18" FontStyle="Italic" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="x²" FontSize="18" FontStyle="Italic" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="√x" FontSize="18" FontStyle="Italic" Margin="0.5" Padding="1" Background="#FFA8A5A5" />
+            <Button Content="÷" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="7" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="8" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="9" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="×" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="4" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="5" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="6" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="-" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="1" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="2" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="3" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="+" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+            <Button Content="+/-" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="0" FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="," FontWeight="Bold" FontSize="24" Margin="0.5" Padding="1"/>
+            <Button Content="=" FontSize="18" Margin="0.5" Padding="1" Background="#FFA8A5A5"/>
+        </UniformGrid>
+    </Grid>
+</Window>
